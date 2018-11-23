@@ -1,5 +1,5 @@
 <!---
-Ejemplos de inserciÃ³n de videos
+Ejemplos de inserción de videos
 
 <video class="stretch" controls><source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4"></video>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3RBq-WlL4cU" frameborder="0" allowfullscreen></iframe>
@@ -11,7 +11,7 @@ element: class="fragment" data-fragment-index="1"
 ## HLC - Fullstack
 ---
 ![HLC-Fullstack](http://jamj2000.github.io/hlc-fullstack/hlc-fullstack.png)
-<small> 2018-19 - IES Luis VÃ©lez de Guevara - Ã‰cija - Spain </small>
+<small> 2018-19 - IES Luis Vélez de Guevara - Écija - Spain </small>
 
 
 ## Conceptos generales
@@ -19,28 +19,28 @@ element: class="fragment" data-fragment-index="1"
 [![cc-by-sa](http://jamj2000.github.io/hlc-fullstack/cc-by-sa.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 
-## Ãndice
+## Índice
 --- 
-- ### IntroducciÃ³n
-- ### TecnologÃ­as para el backend
-- ### TecnologÃ­as para el frontend
+- ### Introducción
+- ### Tecnologías para el backend
+- ### Tecnologías para el frontend
 - ### MVC: Modelo-Vista-Controlador
 - ### SPA: Single Page Application 
 - ### Persistencia de los datos
 
-<!--- Note: Nota a pie de pÃ¡gina. -->
+<!--- Note: Nota a pie de página. -->
 
 
 
-## IntroducciÃ³n
+## Introducción
 
 
 ### En esta Unidad aprenderemos a
 
-- Identificar las tecnologÃ­as base de la web.
+- Identificar las tecnologías base de la web.
 - Identfificar los lenguajes y frameworks usados en el lado del servidor.
 - Identfificar los lenguajes y frameworks usados en el lado del cliente.
-- Reconocer el patrÃ³n MVC.
+- Reconocer el patrón MVC.
 - Distinguir entre MPA y SPA.
 - Valorar la importancia de la persistencia de los datos.
 
@@ -53,28 +53,28 @@ element: class="fragment" data-fragment-index="1"
 - **CSS**: Formato/apariencia del documento. `CSS3`.
 - **Javascript**: Funcionalidad del documento. `ECMAScript6`.
 
-Note: Al final de lÃ­nea se muestra la versiÃ³n mÃ¡s relevante actualmente.
+Note: Al final de línea se muestra la versión más relevante actualmente.
 
 
-### Partes de una aplicaciÃ³n web
+### Partes de una aplicación web
 
 ![Backend-Frontend](assets/frontend-backend.png)
 
 
-### Partes de una aplicaciÃ³n web
+### Partes de una aplicación web
 
 - **Backend**: parte que se ejecuta en el servidor.
   - Se encarga de atender las peticiones de los clientes.
   - Suele tener soporte de almacenamiento de datos.
-  - TambiÃ©n se denomina capa de acceso a datos
+  - También se denomina capa de acceso a datos
 - **Frontend**: parte que se ejecuta en el cliente.
   - Se encarga de la experiencia del usuario (UX).
   - Puede tener soporte de cache de datos.
-  - TambiÃ©n se denomina capa de presentaciÃ³n.
+  - También se denomina capa de presentación.
 
 
 
-## TecnologÃ­as para el backend
+## Tecnologías para el backend
 
 
 ### Lenguajes del lado del servidor
@@ -84,12 +84,12 @@ Note: Al final de lÃ­nea se muestra la versiÃ³n mÃ¡s relevante actualmente
 
 ### Lenguajes del lado del servidor
 
-- **PHP**: PHP Hypertext Preprocessor. Uno de los lenguajes mÃ¡s utilizados para la creaciÃ³n de todo tipo de CMS.
-- **JSP**: JavaServer Pages. Es la propuesta de Java, y uno de los mÃ¡s demandados.
+- **PHP**: PHP Hypertext Preprocessor. Uno de los lenguajes más utilizados para la creación de todo tipo de CMS.
+- **JSP**: JavaServer Pages. Es la propuesta de Java, y uno de los más demandados.
 - **ASP**: Active Server Pages. Es el lenguaje de desarrollo web de Microsoft. 
-- **Ruby**: es un lenguaje de programaciÃ³n interpretado, reflexivo y orientado a objetos.
-- **Python**: es un lenguaje de programaciÃ³n multiparadigma que hace hincapiÃ© en el cÃ³digo legible. 
-- **Javascript (Node.js)**: cada vez mÃ¡s popular puesto que se usa tambiÃ©n en el lado cliente.
+- **Ruby**: es un lenguaje de programación interpretado, reflexivo y orientado a objetos.
+- **Python**: es un lenguaje de programación multiparadigma que hace hincapié en el código legible. 
+- **Javascript (Node.js)**: cada vez más popular puesto que se usa también en el lado cliente.
 
 
 ### Frameworks del lado servidor 
@@ -115,7 +115,7 @@ https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador
 
 
 
-## TecnologÃ­as para el frontend
+## Tecnologías para el frontend
 
 
 ### Lenguajes del lado del cliente
@@ -147,19 +147,19 @@ https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador
 
 ## Modelo-Vista-Controlador
 
-- se ejecuta casi toda la lÃ³gica de aplicaciÃ³n en el backend. 
-- el servidor sirve mÃºltiples vistas, cada vista es una pÃ¡gina HTML. 
-- es una aplicaciÃ³n de mÃºltiples pÃ¡ginas (MPA). 
+- se ejecuta casi toda la lógica de aplicación en el backend. 
+- el servidor sirve múltiples vistas, cada vista es una página HTML. 
+- es una aplicación de múltiples páginas (MPA). 
 
 
 ## Single Page Application
 
-![AplicaciÃ³n de PÃ¡gina Ãšnica](assets/SPA.png)
+![Aplicación de Página Única](assets/SPA.png)
 
 
 ## Single Page Application
 
-- se ejecuta gran parte de la lÃ³gica de la aplicaciÃ³n en el frontend. 
+- se ejecuta gran parte de la lógica de la aplicación en el frontend. 
 - el servidor sirve datos mediante una API web. 
 - principalmente se usan 2 formatos para el intercambio de datos:
   - **XML**
